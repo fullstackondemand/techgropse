@@ -1,0 +1,8 @@
+@layer utilities {
+    .hero_bg {
+        background: url('../assets/hero_bg.png'), url('../assets/hero-shape-right.png'), url('../assets/hero-shape-left.png');
+        background-position: center top, top right, top left;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: cover, auto, auto;
+    }
+}
