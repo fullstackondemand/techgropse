@@ -5,4 +5,8 @@
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: cover, auto, auto;
     }
+
+    .shadow-white {
+        box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.4);
+    }
 }

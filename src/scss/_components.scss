@@ -1,13 +1,25 @@
 @layer components  {
     .container {
-        @apply m-auto max-w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1171px];
+        @apply m-auto max-w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1170px];
     }
     
     .header-fixed {
-        @apply w-full top-0 fixed py-5 bg-alt;
+        @apply w-full top-0 fixed py-5 bg-alt z-10;
     }
 
     .menu-open {
-        @apply w-full h-screen fixed top-0 bg-alt;
+        @apply w-full h-screen fixed top-0 bg-alt z-10;
+    }
+
+    .android {
+        background: linear-gradient(137.53deg, #7122FF 8.72%, #19A6FF 91.81%);
+    }
+
+    .react {
+        background: linear-gradient(134.78deg, #FFA385 10.66%, #FF288D 90.85%);
+    }
+
+    .iphone {
+        background: linear-gradient(135.82deg, #D8298A 7%, #B92CCD 92.38%);
     }
 }

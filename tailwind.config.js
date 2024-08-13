@@ -20,11 +20,14 @@ export default {
         primary: '#0D6EFD',
         alt: "#05081A",
         alt1: "#D9D9D9",
+        alt2: "#0B0E22",
+        alt3: "#121526",
       },
       /** Define Custom Font Family */
       fontFamily: {
         inherit: 'inherit',
-        default: ['Poppins', 'sans-serif']
+        default: ['Poppins', 'sans-serif'],
+        alt: ["Mulish", 'sans-serif']
       },
       /** Define Custom Font Size */
       fontSize: {

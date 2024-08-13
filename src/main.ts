@@ -20,3 +20,21 @@ MenuOpen?.addEventListener("click", () => {
     MobileNav?.classList.toggle('!block', Open);
     ToogleImg?.setAttribute("src", `assets/icons/menu_${Open ? "close" : "bar"}.png`);
 });
+
+/* FAQs Accordin */
+const Collapse = document.querySelectorAll('.collapse-heading');
+
+Collapse.forEach((Accordin) => {
+    Accordin.addEventListener("click", function () {
+
+        // Reverse collapse
+        Collapse?.forEach((collapse) => {
+            collapse.nextElementSibling?.classList.add('hidden');
+            collapse.querySelector('img')?.setAttribute("src", `assets/icons/plus.svg`);
+        });
+
+        Accordin.nextElementSibling?.classList.remove('hidden');
+        Accordin.querySelector('img')?.setAttribute("src", `assets/icons/minus.svg`);
+    });
+});
+
